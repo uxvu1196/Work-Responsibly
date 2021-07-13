@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Open+Sans:wght@300&display=swap');
+
+header{
+    background-image: url(../img/LEV3.jpg);
+    color: white;
+    height: 800px;
+    
+}
+
+h1{
+    padding-left: 100px;
+    padding-top: 10px;
+    font-family: 'Fredericka_the_Great', sans-serif;
+}
+
+section h2{
+    font-family: 'Fredericka_the_Great', sans-serif;
+}
+
+section p{
+    font-family: 'open_sans', sans-serif;
+    padding-bottom: 10px;
+} 
+
+section{
+    text-align: center;
+    margin-top: 23%;
+    margin-right: 33%;
+    margin-bottom: 33%;
+    margin-left: 33%;    
+}
+
+
+/*button{
+    background: none;
+}
+*/
+
+section a{
+    border-style: solid;
+    padding: 7px 30px;
+    border-color: white;
+    color: white;
+    text-decoration: none;
+    font-family: 'open_sans', sans-serif;
+  }
+
+nav{
+    text-align: right;
+    text-decoration: none;
+    color: white;
+    text-decoration: none;
+}
+
+/*
+body{
+    margin: 0;
+}
+
+section:first-of-type{
+    background: url(../img/LEV3.jpg) center/cover no-repeat;
+    padding: 300px 0;
+}
+
+section:first-of-type h2{
+
+    margin: 0;
+    width: 300px;
+    color: black;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+
+header{
+    background-image: url(../img/LEV3.jpg) center/cover no-repeat;
+    color: white;
+
+*/

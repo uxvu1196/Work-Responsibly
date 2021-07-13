@@ -1,0 +1,52 @@
+body{
+    background-color: darkgrey;
+    text-align: center;
+}
+
+a{
+    border: 1px solid black ;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color:  #132639;
+    font-size: 25px;
+    padding: 5px 100px;
+    text-decoration: none;
+    letter-spacing: 2px;
+}
+
+figure{
+    display: none;
+    margin-top: 5%;
+}
+
+a:hover + figure{
+    display: block;
+}
+
+a:hover{
+    background-color: #19194d ;
+}
+
+
+
+/*
+section{
+    text-align: center;
+}
+
+section button{
+    border: 1px solid black ;
+    color: white;
+    background-color:  #132639;
+    font-size: 30px;
+    padding: 5px 0px;
+    width: 35%;
+}
+
+section button:hover{
+    background-color: #19194d;  
+}
+
+div img{
+    display: none;
+}

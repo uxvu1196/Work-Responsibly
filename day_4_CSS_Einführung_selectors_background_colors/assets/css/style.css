@@ -1,0 +1,55 @@
+h2{
+    color:lightblue;
+    font-size: 50px;
+}
+/* li{
+    color:gold
+} */
+/* Descendent selectors (space) */
+/* article ul li{
+    color:gold
+} */
+article li{
+    color:gold
+}
+section h1{
+    color:blue
+}
+article h1{
+    color:red
+}
+/* direct child ( > ) */
+article>h2{
+    color:purple
+}
+/* p{
+    color:blue
+} */
+/* article p{
+    color:blue
+} */
+/* article>p{
+    color:blue
+} */
+/* h2+p{
+    color:tomato
+} */
+article h2+p{
+    color:tomato
+}
+article h2+p{
+    color:blue
+}
+p{
+    color:gold
+}
+h4~p{
+    color:gray
+}
+h4:hover + p{
+    color:red
+}
+main p{
+    color:hsl(0,100,50)
+}
+

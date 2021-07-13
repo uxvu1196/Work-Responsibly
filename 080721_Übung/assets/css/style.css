@@ -1,0 +1,93 @@
+
+body{
+    margin: 0;
+}
+
+nav{
+    background: black;
+    padding: 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+nav ul{
+    list-style: none;
+    margin: 0;
+}
+
+nav li{
+    display: inline-block;
+    padding-right: 30px;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.5em;
+
+}
+
+div:first-child{
+    position: fixed;
+    top:50%;
+    right: 1%;
+}
+div:nth-of-type(2){
+    position: fixed;
+    top: 45%;
+    right: 1%;
+}
+div:last-of-type{
+    position: fixed;
+    top: 40%;
+    right: 1%;
+}
+
+.line3{
+    height: 3px;
+    width: 20px;
+    top: 15%;
+    right: 10px;
+}
+
+.box1{
+    height: 200px;
+    background: tomato;
+    width: 300px;
+    position: relative;
+    left: 100px;
+    right: 100px;
+}
+
+.box2{
+    height: 200px;
+    background: gold;
+    width: 100px;
+}
+
+
+
+section{
+    position: relative;
+}
+
+.Körper{
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    background: yellow;
+    border-radius:  50%;
+    top: 100px ;
+    left: 25%;
+}
+
+.auge1{
+    height: 60px;
+    width: 60px;
+    position: absolute;
+    background: black;
+    border-radius:  50%;
+    top: 180px;
+    left: 30%;
+}

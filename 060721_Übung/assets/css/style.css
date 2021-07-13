@@ -1,0 +1,32 @@
+@font-face {
+    font-family: neueMachina-regular;
+    src: url(../fonts/Neue\ Machina\ -\ Free\ for\ Personal\ Use/neueMachina-regular.otf);
+}
+
+/*bsp1*/
+.img{
+    width: 50%;
+    margin: 0 auto;
+    display: block;
+}
+/*bsp2*/
+section{
+    text-align: center;
+}
+
+img{
+    width: 50%;
+}
+
+.fa-instagram-square{
+    font-size: 3em;
+}
+
+@font-face {
+    font-family: neueMachina-regular;
+    src: url(../fonts/Neue\ Machina\ -\ Free\ for\ Personal\ Use/neueMachina-regular.otf);
+}
+
+p{
+    font-family: neueMachina-regular;
+}

@@ -1,0 +1,19 @@
+section {
+    max-width:800px;
+    margin: 0 auto;
+    }
+    
+    h2 {
+    font-size: 35px;
+    }
+    
+    p {
+    color: green;
+    }
+    
+    h3 {
+    color: darkgrey;
+    font-size: 40px;
+    background: lightgrey;
+    }
+    

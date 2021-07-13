@@ -1,0 +1,111 @@
+section:first-of-type h1{
+    color:gold
+}
+section:last-of-type p{
+    background:lightblue;
+}
+section:nth-of-type(2) h1{
+    color:tomato
+}
+ul{
+    text-align: right;
+}
+li{
+    display: inline;
+    padding-left: 1em;
+}
+ul li:last-child{
+    padding-right: 3em;
+}
+/* html{
+    
+} */
+/* :root{
+    color:gold
+} */
+
+/*:not :is :where*/
+
+/*All list in tomato but not the last one (stay black)*/
+/* li{
+    color:tomato
+}
+li:last-child{
+    color:black
+} */
+li:not(:last-child){
+    color:tomato
+}
+section:not(:first-of-type){
+    background:lightblue;
+}
+/* section h1:hover,article h1:hover,main h1:hover{
+    color:blue;
+    text-decoration: underline;
+} */
+
+:is(section,article,main) h1:hover{
+    color:blue
+}
+:where(section,article,main) h1:hover{
+    text-decoration: underline;
+}
+h1{
+    color:red
+}
+h1:first-of-type{
+    color:blueviolet
+}
+h1{
+    color:coral
+}
+/* ::selection{
+    background: purple;
+} */
+
+h2::first-letter{
+    font-size: 3em;
+}
+p::first-line{
+    background: #000;
+    color:#fff
+}
+p::before{
+    content:'Hello';
+}
+p::after{
+    content:'Its the end';
+}
+h2::before{
+    content:url(../img/bild.png);
+}
+h2::after{
+    content:url(../img/bild.png);
+}
+
+li{
+    position:relative
+}
+li::before{
+    content:'';
+    position:absolute;
+    height: 1px;
+    width: 0px;
+    bottom: -10px;
+    left: 13px;
+   
+    display: block;
+    background: #000;
+    transition:width 0.3s;
+}
+li:hover::before{
+    content:'';
+    position:absolute;
+    height: 1px;
+    width: 40px;
+    bottom: -10px;
+    left: 13px;
+   
+    display: block;
+    background: #000;
+}

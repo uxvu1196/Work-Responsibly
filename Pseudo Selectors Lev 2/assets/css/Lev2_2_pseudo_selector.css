@@ -1,0 +1,39 @@
+h3:hover{
+    color: red;
+    }
+    
+    ul li:first-child{
+    font-family: Tahoma;
+    color:  #4E342E;
+    }
+    /*ul li:last-child(3){
+      font-family: tahoma;
+      color:  #4E342E;
+    }*/
+    ul li:nth-child(2){
+      font-family: Montserrat;
+      color: #689F38;
+    }
+    ul li:last-child{
+      font-family: Raleway;
+      color:  #EF5350;
+    }
+    section p:first-child{
+    color:#999;
+    }
+
+    p:not(:last-child){
+        font-size: 26px;
+      }
+      
+      p:nth-child(even){
+        color:#0277bd;
+      }
+      
+      /*
+      p:nth-child(2n){
+      color:#0277bd;
+      }
+      */
+      
+    

@@ -1,0 +1,112 @@
+/* body {
+    background-color: gold;
+} */
+
+/* @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Indie+Flower&display=swap');
+
+
+
+body {
+    /* Schriftart */
+    font-family: Tahoma, Geneva, Arial, sans-serif;
+
+    /* Websichere Schriftarten/ Fallback-Schriften */
+
+    /* font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
+    /* font-family: family-name|generic-family; */
+
+    /* 5 generische Schriftartfamilien */
+    /* font-family: cursive;
+    font-family:fantasy;
+    font-family:monospace;
+    font-family: serif;
+    /* font-family: sans-serif; */
+
+    /* Externe Schriften */
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    /* Schriftstärke */
+    font-weight:500;
+
+    /* Browser Default 16px */
+    font-size:40px;
+    /* Schrifstil */
+    font-style:italic;
+    font-style:oblique;
+    font-style: unset;
+    /* Großschreibung */
+    font-variant: small-caps;
+
+    /* Text Dekoration */
+    text-decoration: line-through;
+    text-decoration: overline;
+    text-decoration: underline;
+    text-decoration-color: aquamarine;
+    text-decoration-style:dashed;
+    text-decoration-style:wavy;
+ 
+    word-spacing: 15px;
+}
+
+h2 {
+    font-weight:900;
+    font-style:oblique;
+
+    /* Text Transformation */
+    text-transform:uppercase;
+    text-transform:capitalize;
+    text-transform:lowercase;
+
+    text-shadow: 2px 2px 4px purple;
+}
+
+p {
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Indie Flower', cursive;
+
+    /* Zeilenabstand */
+    line-height: 5px;
+    line-height: 25px;
+
+    /* Einrücken von Textzeilen */
+    /* text-indent: 50px; */
+
+/* Text Ausrichtung !Merke: Mit dieser Eigenschaft kann man auch Elemente zentrieren oder ausrichten. Diese Eigenschaft gibt man dem Elternelement! */
+    text-align:center;
+    text-align: right;
+    text-align: justify;
+    
+}
+
+figure {
+    text-align:center;
+}
+
+h2+p {
+    text-align:right;
+    letter-spacing: 10px;
+}
+
+
+/* h1+p {
+    font-family: 'Indie Flower', cursive;   
+}
+
+h2+p{
+    font-family: 'Dancing Script', cursive;
+} */
+
+/* Lokale Schriften einbinden */
+@font-face {
+    font-family: BroadwayRegular;
+    src: url("../fonts/BroadwayRegular-7Bpow.ttf");
+  }
+
+h4 {
+    font-family: BroadwayRegular;  
+    font-size: 50px;
+}

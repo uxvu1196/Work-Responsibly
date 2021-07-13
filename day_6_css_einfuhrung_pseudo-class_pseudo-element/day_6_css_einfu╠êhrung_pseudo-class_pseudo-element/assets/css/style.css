@@ -1,0 +1,128 @@
+/* h2:lang(en){
+    background:gold;
+} */
+/*Note: a:hover MUST come after a:link and a:visited in the CSS definition in order to be effective! a:active MUST come after a:hover in the CSS definition in order to be effective! Pseudo-class names are not case-sensitive.*/
+a:link{
+    color:tomato
+}
+
+a:visited{
+    color:gold
+}
+
+a:hover{
+    color:purple
+}
+
+a:active{
+    color:darkgreen
+}
+/* a{
+    color:darkolivegreen
+} */
+input:focus{
+    background:lightblue
+}
+h1:hover{
+    background:#333;
+    color:#ddd;
+}
+
+section p{
+    height:30px;
+    background: gold;
+}
+section p:empty{
+    background: tomato;
+}
+/*Child*/
+section h3:first-child{
+    background:lightblue
+}
+section h2:nth-child(2){
+    font-size: 2em;
+}
+section p:nth-child(4){
+    text-decoration: underline;
+}
+section h3:nth-last-child(2){
+    font-size: 3em;
+}
+section h2:last-child{
+    font-size: 3em;
+}
+/*type*/
+/*:first-of-type*/
+article p:first-of-type{
+    color:darkorange
+}
+article h2:first-of-type{
+    color:red
+}
+article h1:first-of-type{
+    color:aquamarine
+}
+article h2:nth-of-type(3){
+    color:blueviolet
+}
+article p:nth-of-type(2){
+    text-decoration: line-through;
+}
+article p:nth-child(4){
+    font-size: 3em;
+}
+article p:nth-last-of-type(3){
+    background:tomato;
+}
+/* article h1{
+
+}
+article h1:last-child{
+
+}
+article h1:nth-child(8){
+
+}
+
+
+article h1:first-of-type{
+
+}
+
+article h1:nth-last-child(1){
+
+}
+
+article h1:nth-of-type(1){
+
+}
+article h1:last-of-type{
+
+} */
+
+/*gerade: even 2 4 6 ### ungerade: odd  1 3 5*/
+
+ul li:nth-child(even){
+    background: gold;
+}
+ul li:nth-child(odd){
+    background: tomato;
+}
+/* gerade = 2*n =2n*/
+/* ungerade = 2*n +1 =2n+1 */
+ul li:nth-child(2n){
+    letter-spacing: 4px;
+}
+/*3n*/
+ul li:nth-child(3n){
+    font-size: 2em;
+}
+ul li:nth-child(5n){ 5 und 5 x 2 10 x 2
+    text-align: right;
+}
+/* aside h3:nth-child(6),aside h3:nth-child(8),aside h3:nth-child(10){
+    color:tomato
+} */
+aside h3:nth-child(2n+6){
+    color:tomato
+}

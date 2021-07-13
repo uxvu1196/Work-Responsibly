@@ -1,0 +1,72 @@
+@font-face {
+    font-family: Athene ;
+    src: url(../fonts/Athene.otf);
+}
+@font-face {
+    font-family: OpenSans400;
+    src: url(../fonts/OpenSans-Regular.ttf);
+}
+
+body{
+    margin: 0;
+}
+header{
+    background-color: #EFE8D7;
+}
+
+section ul{
+    margin-top: 0;
+    font-family: OpenSans400;
+    display:block;
+    list-style: none;
+    border-bottom: solid 2px #042A5A;
+}
+/* wir machen die ul (inline) zu einer veränderbaren Element mit display block danach machen wir die einzelnen li in eine inline*/
+section ul li{
+    display: inline;
+}
+
+header section ul li:first-child{
+    /*padding-top: 2%;
+    margin-left: 8%;*/
+
+    padding: 10px 8%;
+}
+
+
+header section ul li:last-child{
+    margin-left: 68%;
+}
+
+header div{
+    padding-top: 3%;
+    margin-left: 30%;
+    margin-right: 25%;
+    text-align: center;
+    color: #002a5a;
+    border-bottom: 2px solid #002a5a;
+    
+}
+header h1, h2 {
+    font-family: 'Athene', serif;  
+    margin: 0;
+    font-size: 85px;
+    font-weight: lighter;
+    
+}
+
+figure{
+    width: 30%;
+    margin: auto;
+}
+
+section h3{
+    font-family: Athene;
+}
+
+span{
+    font-family: OpenSans400;
+}
+
+
+

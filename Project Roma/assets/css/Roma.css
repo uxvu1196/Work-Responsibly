@@ -1,0 +1,68 @@
+/* Font: Santio bold, Roboto, Mr Dafoe
+Farbe: #e7bc0e  / #efefef / #6bc1a3 / #cb91b6 / #7eb8e1 / #000 / #fff
+font-family: 'Mr Dafoe', cursive;
+font-family: 'Roboto', sans-serif;
+ */
+
+@import url('https://fonts.googleapis.com/css2?family=Mr+Dafoe&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+@font-face {
+    font-family: Santio;
+    src: url(../fonts/SANTIO/OTP/Santio\ Bold.otf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+/* PARALLAX Hintergrund */
+.parallax{
+background: url(../img/cleo-topper.jpg) center/cover no-repeat;
+background-attachment: fixed;
+}
+
+header div{
+    text-align: right;
+    padding-right: 55px;
+    letter-spacing: ;
+}
+
+
+/* Heart */
+header div img{
+    width: 25px;
+    margin-right: 20px;
+}
+/* Take Action */
+a{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    text-decoration: none;
+    color: #fff; 
+    letter-spacing: 0.2em;
+    border-bottom: 2px solid #e7bc0e ;
+}
+/* CLEO */
+.cleo{
+    padding-top: 26%;
+    padding-left: 8%;
+    width: 36vh;
+    font-family: Santio;
+    color: #fff;
+    font-size: 8vh;
+}
+
+/* SCROLL */
+.scroll{
+    padding-top: ;
+    padding-left: ;
+    width: 36vh;
+    font-family: 'Mr Dafoe';
+    color: #e7bc0e;
+    font-size: 4vh;
+
+}
+

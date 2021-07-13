@@ -1,0 +1,92 @@
+section ul{
+    list-style-type:upper-alpha;
+    
+}
+section ol{
+    list-style-image: url(https://unsplash.it/20);
+}
+section ul li{
+    background: gold;
+    border:1px solid #000;
+    list-style-position: outside;
+    margin-bottom: 5px;
+}
+section ol li{
+    background:tomato;
+    border:1px solid #000;
+    margin-bottom: 5px;
+    list-style-position: inside;
+    /* list-style: list-style-type list-style-position list-style-image ; */
+    list-style:none;
+}
+nav{
+    background:rgba(0,0,0,.5);
+    padding: 2px 0;
+}
+nav ul{
+    list-style: none;
+    text-align: right;
+    margin-right: 20px;
+}
+nav ul li{
+    /*border:1px solid #000; */
+    display:inline-block;
+    margin-right: 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+
+}
+.inline{
+    display:inline;
+    background: gold;
+    height: 1000px;
+    width:1000px;
+    margin-bottom: 100px;
+    margin-top: 100px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    padding-right: 50px;
+    padding-left: 50px;
+    margin-right: 30px;
+    margin-left: 50px;
+}
+.inline-block{
+    display:inline-block;
+    background: tomato;
+    height: 50px;
+    width: 600px;
+    margin: 40px;
+    padding: 20px;
+}
+.block{
+    display: block;
+    background: lightblue;
+    margin: 20px;
+    padding: 20px;
+}
+/*block element = 100% width from the browser*/
+/*block element = 50% width*/
+body{
+    margin: 0;
+}
+div{
+    height: 40px;
+    background: gold;
+    width: 50%;
+    /* margin: 0 auto; */
+    margin-left: auto;
+}
+article{
+    border:1px solid #000;
+    background: lightblue;
+    width:40%;
+    display: inline-block;
+    margin-left: 6%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+article h3{
+    display:none
+}

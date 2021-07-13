@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Gilda+Display&family=Maven+Pro&display=swap');
+body{
+    margin:0px auto;
+}
+
+
+/* header */
+header{
+    background-color:rgb(74, 77, 77);
+    /* width: 500px; */
+    height:100%;
+    color:white;
+    font-family: 'Maven Pro', sans-serif;
+    
+}
+
+/* logo position */
+header>p{
+    padding:10px 15px;
+
+}
+/* image container */
+div{
+    width:25%;
+    background: linear-gradient(30deg,rgb(138, 74, 168),rgb(100, 76, 233),rgb(35, 115, 168),hsl(182, 72%, 74%)),hsl(182, 71%, 57%);
+    background-repeat:no-repeat;
+    background-position: center;
+    border-radius: 5px;
+    margin:5px 550px;
+  
+    /* padding:30px 50px; */
+
+}
+
+
+
+div p{
+    font-family: 'Gilda Display', serif;
+    font-size:80px;
+    padding: 10px 20px;
+}
+div p+p{
+    font-family: 'Maven Pro', sans-serif;
+    font-size:20px;  
+}
+nav ul{
+    list-style: none;
+    padding-bottom: 40px;
+    text-align: right;
+  
+}
+nav ul>li>a{
+    color:white;
+    font-family: 'Maven Pro', sans-serif;
+    padding-right: 20px;
+    text-decoration-line: none;   
+}
+  
+
+article{
+    background-image: url(https://assets.website-files.com/5c8834f1555981170b2fd8b1/5c898cd67456ffcba141a5ff_PROJECTS.svg);
+    background-repeat: no-repeat;
+    margin:100px;
+}
+article h3{
+    font-size:70px;
+    line-height:250px;
+}
+article h3+p{
+    margin:0;
+    word-break: keep-all;
+    /* word-wrap: break-word; */
+}
+figure{
+    margin:100px;
+}
+figure h2{
+    font-size:50px;
+}
+figure h2+p{
+    text-transform: uppercase;
+}

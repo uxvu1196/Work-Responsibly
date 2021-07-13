@@ -1,0 +1,12 @@
+.img{
+    width: 50%;
+    margin: 0% auto; 
+    display: block;
+    padding-bottom: 70px;
+}
+
+section{
+   
+    background-image: url("../img/Bild1.jpg");
+
+}
